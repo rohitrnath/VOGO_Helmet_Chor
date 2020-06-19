@@ -1,16 +1,9 @@
 # VOGO – Helmet-Harborer System
 
-This project was developed as a part of hackethon conducted by skillenza and VOGO. The idea was to finda solution for helmet theft in VOGO bikes. Using ESP12 module and few other circuitries a system is developed which will not allow the user to end the drive without keeping the helmet back in the desired place. The system was capable of even identify replacement of helmet. Implementation at minimal cost was main design concern.
-
 ## 1. Summary
 
-```
-Helmet theft become headache for most of the vehicle renting services. It create huge loss to
-most of the company and many users are not able to use the service securely due to
-unavailability of helmet during ride. Hence we are here with Smart and worlds cheapest solution
-for this problem. This document is intended to explain high level design of anti-helmet theft
-system.
-```
+This project was developed as a part of hackethon conducted by skillenza and VOGO. The idea was to finda solution for helmet theft in VOGO bikes. Using ESP12 module and few other circuitries a system is developed which will not allow the user to end the drive without keeping the helmet back in the desired place. The system was capable of even identify replacement of helmet. Implementation at minimal cost was main design concern.
+
 ## 2. Tools Used
 
 To implement this POC, we must work on 3 regions such as, On-Bike unit, Server and UI application.
@@ -18,7 +11,7 @@ To implement this POC, we must work on 3 regions such as, On-Bike unit, Server a
 ### 2 .1 On-Bike Unit (OBU)
 
 - Controller used – **ESP32** stand alone SoC with inbuild Wi-Fi and BT.
-- Programmed using **Arduino IDE**
+- Programmed using **Arduino/C++**
 - Other components – **resistors**
 
 **Note : If the current IoT board in the VOGO bike having ADC, then the costless resistors are only
